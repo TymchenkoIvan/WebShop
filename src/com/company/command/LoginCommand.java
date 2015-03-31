@@ -10,6 +10,8 @@ class LoginCommand implements Command
 {
     private ResourceBundle res = ResourceBundle.getBundle(CashMachine.RESOURCE_PATH+"login_en");
     private ResourceBundle validCreditCards = ResourceBundle.getBundle(CashMachine.RESOURCE_PATH+"verifiedCards");
+    final int CARD_NUMBER_LENGHT = 12;
+    final int CARD_CODE_LENGHT = 4;
     @Override
     public void execute() throws InterruptOperationException
     {
@@ -17,12 +19,12 @@ class LoginCommand implements Command
         while (true){
             ConsoleHelper.writeMessage(res.getString("specify.data"));
             String userCreditCardNumber = ConsoleHelper.readString().trim();
-            if (userCreditCardNumber == null || userCreditCardNumber.length() != 12){
+            if (userCreditCardNumber == null || userCreditCardNumber.length() != CARD_NUMBER_LENGHT){
                 ConsoleHelper.writeMessage(res.getString("try.again.with.details"));
                 continue;
             }
             String userPin = ConsoleHelper.readString().trim();
-            if (userPin == null || userPin.length() != 4){
+            if (userPin == null || userPin.length() != CARD_CODE_LENGHT){
                 ConsoleHelper.writeMessage(res.getString("try.again.with.details"));
                 continue;
             }

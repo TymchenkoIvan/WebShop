@@ -29,6 +29,7 @@ public class ConsoleHelper
                 throw new InterruptOperationException();
         }
         catch (IOException e){
+            writeMessage(e.getMessage());
         }
         return line;
     }
@@ -37,8 +38,7 @@ public class ConsoleHelper
     {
         ConsoleHelper.writeMessage(res.getString("choose.currency.code"));
         String console = readString();
-        while(console.length() != 3)
-        {
+        while(console.length() != CashMachine.MONEY_LENGHT) {
             ConsoleHelper.writeMessage(res.getString("invalid.data"));
             console = readString();
         }
@@ -51,8 +51,7 @@ public class ConsoleHelper
         ConsoleHelper.writeMessage(String.format(res.getString("choose.denomination.and.count.format"), currencyCode));
         String console = readString().trim();
         String[] consBuff = console.split(" ");
-        while(Integer.parseInt(consBuff[0]) <= 0 && Integer.parseInt(consBuff[1]) <= 0)
-        {
+        while(Integer.parseInt(consBuff[0]) <= 0 && Integer.parseInt(consBuff[1]) <= 0) {
             ConsoleHelper.writeMessage(res.getString("invalid.data"));
             console = readString().trim();
             consBuff = console.split(" ");
@@ -69,14 +68,10 @@ public class ConsoleHelper
         ConsoleHelper.writeMessage(res.getString("operation.EXIT"));
         Operation operation = null;
 
-        while (operation == null)
-        {
-            try
-            {
+        while (operation == null) {
+            try {
                 operation = Operation.getAllowableOperationByOrdinal(Integer.parseInt(readString()));
-            }
-            catch (IllegalArgumentException e)
-            {
+            } catch (IllegalArgumentException e) {
                 operation = null;
                 ConsoleHelper.writeMessage(res.getString("invalid.data"));
             }
