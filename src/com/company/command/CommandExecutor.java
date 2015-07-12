@@ -15,11 +15,7 @@ public abstract class CommandExecutor
         executeMap.put(Operation.WITHDRAW, new WithdrawCommand());
         executeMap.put(Operation.EXIT, new ExitCommand());
     }
-    //Пустой конструктор не нужен, т.к. он по умолчанию создается компилятором
-    //Однако правилом хорошего тона является указывать конструтор в POJO классах(Єто не тот случай)
-    private CommandExecutor()
-    {
-    }
+
     public static final void execute(Operation operation) throws InterruptOperationException
     {
         executeMap.get(operation).execute();
