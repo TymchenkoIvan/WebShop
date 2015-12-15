@@ -13,7 +13,7 @@ import com.company.constant.DBConstants;
 import com.company.db.JdbcHolder;
 import com.company.entity.Product;
 import com.company.exception.DataException;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 
 public class MySqlProductDAO implements ProductDAO{
 

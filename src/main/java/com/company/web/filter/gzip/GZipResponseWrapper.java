@@ -12,7 +12,7 @@ import org.apache.log4j.Logger;
 
 import com.company.exception.FilterException;
 import com.company.exception.Messages;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 
 public class GZipResponseWrapper extends HttpServletResponseWrapper {
 	

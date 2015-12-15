@@ -11,7 +11,8 @@ import com.company.entity.User;
 import com.company.service.bean.JsonBasketBean;
 import com.company.service.bean.OrderDetailsFormBean;
 import com.company.service.bean.OrderInfoBean;
-import com.company.tymchenko.util.BeanUtil;
+import com.company.service.bean.ProductBean;
+import com.company.util.BeanUtil;
 
 import static org.mockito.Mockito.*;
 
@@ -60,7 +61,7 @@ public class BeanUtilTest {
 		OrderDetailsFormBean mockOrderDetailsFormBean = mock(OrderDetailsFormBean.class);
 		
 		when(mockUser.getId()).thenReturn(1L);
-		when(mockBasket.getMap()).thenReturn(new HashMap<>());
+		when(mockBasket.getMap()).thenReturn(new HashMap<ProductBean, Integer>());
 		when(mockOrderDetailsFormBean.getDelivery()).thenReturn(Delivery.ADDRESS.name());
 		when(mockOrderDetailsFormBean.getPayment()).thenReturn(Payment.CARD.name());
 		

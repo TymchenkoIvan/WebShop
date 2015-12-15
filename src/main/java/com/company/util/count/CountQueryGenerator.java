@@ -2,7 +2,7 @@ package com.company.util.count;
 
 import org.apache.log4j.Logger;
 
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 
 /**
  * Changes select query to select count. 

@@ -15,7 +15,7 @@ import com.company.constant.Constants;
 import com.company.service.captcha.Captcha;
 import com.company.service.captcha.CaptchaContainer;
 import com.company.service.captcha.captchaSaver.Saver;
-import com.company.tymchenko.util.ImageGenerator;
+import com.company.util.ImageGenerator;
 import com.sun.image.codec.jpeg.JPEGCodec;
 
 /**

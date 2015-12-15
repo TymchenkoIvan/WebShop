@@ -12,7 +12,7 @@ import com.company.db.JdbcHolder;
 import com.company.db.dao.UserDAO;
 import com.company.entity.User;
 import com.company.exception.DataException;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 
 /**
  * Implements UserDAO interface and works with MySql database.

@@ -15,8 +15,8 @@ import com.company.constant.AppScopeConstants;
 import com.company.constant.Constants;
 import com.company.entity.Basket;
 import com.company.service.BasketService;
-import com.company.tymchenko.util.ClassNameUtil;
-import com.company.tymchenko.util.ViewPath;
+import com.company.util.ClassNameUtil;
+import com.company.util.ViewPath;
 
 @SuppressWarnings("serial")
 public class BasketMinusServlet extends HttpServlet {

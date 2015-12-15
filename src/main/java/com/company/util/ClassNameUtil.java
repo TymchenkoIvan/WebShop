@@ -1,4 +1,4 @@
-package com.company.tymchenko.util;
+package com.company.util;
 
 /**
  * Helps to get current ClassName of every class.

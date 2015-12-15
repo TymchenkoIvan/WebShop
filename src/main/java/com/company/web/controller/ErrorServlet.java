@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
 
-import com.company.tymchenko.util.ClassNameUtil;
-import com.company.tymchenko.util.ViewPath;
+import com.company.util.ClassNameUtil;
+import com.company.util.ViewPath;
 
 @SuppressWarnings("serial")
 public class ErrorServlet extends HttpServlet {

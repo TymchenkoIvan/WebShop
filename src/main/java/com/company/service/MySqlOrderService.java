@@ -11,7 +11,7 @@ import com.company.db.dao.OrderDAO;
 import com.company.db.dao.OrderItemDAO;
 import com.company.exception.DataException;
 import com.company.service.bean.OrderInfoBean;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 
 public class MySqlOrderService implements OrderService{
 	

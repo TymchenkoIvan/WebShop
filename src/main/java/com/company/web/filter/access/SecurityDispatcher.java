@@ -4,7 +4,7 @@ import org.apache.log4j.Logger;
 
 import com.company.entity.security.Constraint;
 import com.company.entity.security.Security;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 
 public class SecurityDispatcher {
 

@@ -18,8 +18,8 @@ import com.company.exception.DataException;
 import com.company.service.ProductService;
 import com.company.service.bean.JsonBasketBean;
 import com.company.service.bean.ProductBean;
-import com.company.tymchenko.util.BeanUtil;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.BeanUtil;
+import com.company.util.ClassNameUtil;
 import com.google.gson.Gson;
 
 @SuppressWarnings("serial")

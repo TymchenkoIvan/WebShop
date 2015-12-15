@@ -13,7 +13,7 @@ import org.apache.log4j.Logger;
 import com.company.db.JdbcHolder;
 import com.company.exception.DataException;
 import com.company.service.bean.OrderInfoBean;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 
 public class MySqlOrderDAO implements OrderDAO{
 	

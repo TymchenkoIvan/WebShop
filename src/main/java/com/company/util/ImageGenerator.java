@@ -1,4 +1,4 @@
-package com.company.tymchenko.util;
+package com.company.util;
 
 import java.awt.Color;
 import java.awt.Font;

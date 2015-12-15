@@ -18,7 +18,7 @@ import com.company.service.MySqlUserService;
 import com.company.service.captcha.Captcha;
 import com.company.service.captcha.captchaSaver.SaverFactory;
 import com.company.service.captcha.captchaSaver.SaverType;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 import com.company.util.locale.handlerfactory.LocaleHandlerFactory;
 import com.company.util.locale.handlerfactory.LocaleHandlerType;
 import com.company.web.filter.access.SecurityDispatcher;

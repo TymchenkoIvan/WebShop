@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
 
 import com.company.constant.Constants;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 import com.company.util.locale.handler.LocaleHandler;
 
 public class CookieLocaleHandler extends LocaleHandler{

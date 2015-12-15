@@ -18,8 +18,8 @@ import com.company.exception.DataException;
 import com.company.service.BasketService;
 import com.company.service.ProductService;
 import com.company.service.bean.ProductBean;
-import com.company.tymchenko.util.ClassNameUtil;
-import com.company.tymchenko.util.ViewPath;
+import com.company.util.ClassNameUtil;
+import com.company.util.ViewPath;
 
 @SuppressWarnings("serial")
 public class BasketAddServlet extends HttpServlet {

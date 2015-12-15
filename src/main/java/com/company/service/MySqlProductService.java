@@ -13,8 +13,8 @@ import com.company.entity.Product;
 import com.company.exception.DataException;
 import com.company.service.bean.ProductBean;
 import com.company.service.bean.SortFormBean;
-import com.company.tymchenko.util.BeanUtil;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.BeanUtil;
+import com.company.util.ClassNameUtil;
 import com.company.util.count.CountQueryGenerator;
 import com.company.util.querygenerator.select.ChainGenerator;
 

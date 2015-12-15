@@ -18,9 +18,9 @@ import com.company.constant.AppScopeConstants;
 import com.company.constant.Constants;
 import com.company.entity.Role;
 import com.company.entity.User;
-import com.company.tymchenko.util.ClassNameUtil;
-import com.company.tymchenko.util.FilterUtil;
-import com.company.tymchenko.util.ViewPath;
+import com.company.util.ClassNameUtil;
+import com.company.util.FilterUtil;
+import com.company.util.ViewPath;
 import com.company.web.filter.access.SecurityDispatcher;
 
 public class AccessFilter implements Filter {

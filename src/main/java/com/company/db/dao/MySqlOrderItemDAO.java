@@ -11,7 +11,7 @@ import com.company.db.JdbcHolder;
 import com.company.exception.DataException;
 import com.company.service.bean.OrderInfoBean;
 import com.company.service.bean.ProductBean;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 
 public class MySqlOrderItemDAO implements OrderItemDAO {
 

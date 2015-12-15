@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.company.tymchenko.util.ImageGenerator;
+import com.company.util.ImageGenerator;
 
 public class ImageGeneratorTest {
 

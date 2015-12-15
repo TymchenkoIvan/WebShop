@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.company.constant.Constants;
-import com.company.tymchenko.util.FileUtil;
+import com.company.util.FileUtil;
 
 /**
  * Servlet that handles photo receiving.

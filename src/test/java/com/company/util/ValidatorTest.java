@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import com.company.exception.ValidationException;
 import com.company.service.bean.RegistrationFormBean;
-import com.company.tymchenko.util.Validator;
+import com.company.util.Validator;
 
 public class ValidatorTest {
 

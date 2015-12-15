@@ -9,7 +9,7 @@ import javax.xml.bind.Unmarshaller;
 import org.apache.log4j.Logger;
 
 import com.company.entity.security.Security;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 
 public class SecurityXmlParser {
 

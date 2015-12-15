@@ -22,8 +22,8 @@ import com.company.service.bean.RegistrationFormBean;
 import com.company.service.bean.RequestBeanType;
 import com.company.service.bean.factory.RequestBeanFactory;
 import com.company.service.captcha.captchaSaver.Saver;
-import com.company.tymchenko.util.Validator;
-import com.company.tymchenko.util.ViewPath;
+import com.company.util.Validator;
+import com.company.util.ViewPath;
 
 /**
  * Obtains registration form reguest.

@@ -1,4 +1,4 @@
-package com.company.tymchenko.util;
+package com.company.util;
 
 import java.sql.Connection;
 import java.sql.SQLException;

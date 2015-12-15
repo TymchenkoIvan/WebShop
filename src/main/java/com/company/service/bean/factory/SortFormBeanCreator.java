@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 import com.company.constant.Constants;
 import com.company.service.bean.Bean;
 import com.company.service.bean.SortFormBean;
-import com.company.tymchenko.util.ClassNameUtil;
+import com.company.util.ClassNameUtil;
 
 public class SortFormBeanCreator extends RequestBeanCreator{
 	
